@@ -1,0 +1,2 @@
+# ntics
+micro blogging website
