@@ -1,0 +1,20 @@
+<div class="container">
+<div class="progress">
+  <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+    <span class="sr-only">40% Complete (success)</span>
+  </div>
+</div>
+<?php echo validation_errors(); ?>
+<?php echo form_open_multipart('register/details', 'role="form"'); ?>
+
+	<h2>Fill in your profile details</h2>
+	<br/>
+	
+	<div class="form-group">
+		<label for="profile_picture">Picture</label>
+		<input type="file" id="profile_picture" name="profile_picture" size="20"/>
+		<p class="help-block">Image dimension restrictions.</p>
+  	</div>
+
+<button type="submit" class="btn btn-default">Next</button>
+</div>

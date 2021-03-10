@@ -1,0 +1,11 @@
+<div class="container">
+<?php echo validation_errors(); ?>
+<?php echo form_open('register/password', 'role="form"'); ?>
+<h2>Choose your password</h2>
+<br/>
+	<div class="form-group">
+		
+	</div>
+
+<button type="submit" class="btn btn-default">Next</button>
+</div>

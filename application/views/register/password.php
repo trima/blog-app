@@ -1,0 +1,27 @@
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-6 col-md-offset-3">
+<div class="progress">
+  <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+    <span class="sr-only">75% Complete (success)</span>
+  </div>
+</div>
+<?php echo validation_errors(); ?>
+<?php echo form_open('register/password', 'role="form"'); ?>
+
+	<div class="page-header">
+  		<h2>Choose your password</h2>
+	</div>
+	<div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" name ="password" id="exampleInputPassword1" placeholder="Password" required>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Confirm password</label>
+    <input type="password" class="form-control" name="pwdconf" id="exampleInputPassword1" placeholder="Password" required>
+  </div>
+<button type="submit" class="btn btn-default">Next</button>
+</form>
+</div>
+</div>
+</div>
