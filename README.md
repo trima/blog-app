@@ -1,7 +1,7 @@
 # ntics
 micro blogging website
 
-Micro application de blogging avec CodeIgniter et Bootstrap. Developpé pour le module obligatoire technolgie de com (2017)
+Micro application de blogging avec CodeIgniter et Bootstrap. Developpée pour le module obligatoire technolgies de com (2017)
 
 ## Features
 - authentification multipage (locale)
